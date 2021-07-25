@@ -5,3 +5,5 @@
 
 - Custom module without editor by GHSVS
 - Provides a simple textarea for text input instead of an editor. <strong style='color:red'>Be aware: This module doesn't use any text filtering from Joomla. Anybody with access to this module can enter everything! Also malicious code.</strong>
+
+- Download: https://github.com/GHSVS-de/mod_custom_blankghsvs/releases
