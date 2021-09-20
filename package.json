@@ -21,9 +21,10 @@
 		"docsDE": "",
 		"docsEN": "",
 		"lastTests": [
-			"PHP8",
-			"J3.10",
-			"J4.0"
+			"PHP 8",
+			"PHP 7.4",
+			"Joomla 3.10",
+			"Joomla 4.0"
 		]
 	},
 	"minimumPhp": "7.3.0",
