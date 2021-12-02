@@ -2,14 +2,17 @@
 	"name": "mod_custom_blankghsvs",
 	"nameReal": "mod_custom_blankghsvs",
 	"filename": "mod_custom_blankghsvs",
-	"version": "2021.08.30",
+	"version": "2021.12.02-dev",
 	"versionCompare": "2021.05.04",
 	"update": {
 		"type": "module",
 		"folder": "",
 		"client": "site",
 		"tag": "stable",
-		"targetplatform": ".*"
+		"targetplatform": [
+			"3.*",
+			"4.*"
+		]
 	},
 	"releaseTxt": {
 		"title": "Joomla site module mod_custom_blankGhsvs"
