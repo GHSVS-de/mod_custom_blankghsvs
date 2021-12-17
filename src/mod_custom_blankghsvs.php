@@ -13,6 +13,6 @@ if ($params->def('prepare_content', 1))
 }
 
 $moduleclass_sfx = htmlspecialchars(
-	$params->get('moduleclass_sfx'), ENT_COMPAT, 'UTF-8');
+	$params->get('moduleclass_sfx', ''), ENT_COMPAT, 'UTF-8');
 require ModuleHelper::getLayoutPath('mod_custom_blankghsvs',
 	$params->get('layout', 'default'));
