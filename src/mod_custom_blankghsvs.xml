@@ -41,8 +41,7 @@
 			<fieldset name="advanced">
 
 				<field name="prepare_content" type="list" default="0" filter="integer"
-					label="MOD_CUSTOM_FIELD_PREPARE_CONTENT_LABEL"
-					description="MOD_CUSTOM_FIELD_PREPARE_CONTENT_DESC">
+					label="MOD_CUSTOM_FIELD_PREPARE_CONTENT_LABEL">
 					<option value="1">JYES</option>
 					<option value="0">JNO</option>
 				</field>
