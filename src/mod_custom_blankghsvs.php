@@ -8,11 +8,20 @@ use Joomla\CMS\Plugin\PluginHelper;
 if ($params->def('prepare_content', 1))
 {
 	PluginHelper::importPlugin('content');
-	$module->content = HTMLHelper::_('content.prepare', $module->content, '',
-		'mod_custom_blankghsvs.content');
+	$module->content = HTMLHelper::_(
+		'content.prepare',
+		$module->content,
+		'',
+		'mod_custom_blankghsvs.content'
+	);
 }
 
 $moduleclass_sfx = htmlspecialchars(
-	$params->get('moduleclass_sfx', ''), ENT_COMPAT, 'UTF-8');
-require ModuleHelper::getLayoutPath('mod_custom_blankghsvs',
-	$params->get('layout', 'default'));
+	$params->get('moduleclass_sfx', ''),
+	ENT_COMPAT,
+	'UTF-8'
+);
+require ModuleHelper::getLayoutPath(
+	'mod_custom_blankghsvs',
+	$params->get('layout', 'default')
+);
