@@ -14,6 +14,9 @@
 -----------------------------------------------------
 
 # My personal build procedure (WSL 1, Debian, Win 10)
+
+**@since v2022.06.14: Build procedure uses local repo fork of https://github.com/GHSVS-de/buildKramGhsvs**
+
 - Prepare/adapt `./package.json`.
 - `cd /mnt/z/git-kram/mod_custom_blankghsvs`
 
@@ -21,6 +24,13 @@
 - `npm run g-npm-update-check` or (faster) `ncu`
 - `npm run g-ncu-override-json` (if needed) or (faster) `ncu -u`
 - `npm install` (if needed)
+
+## PHP Codestyle
+If you think it's worth it.
+- `cd /mnt/z/git-kram/php-cs-fixer-ghsvs`
+- `npm run mod_custom_blankghsvsDry` (= dry test run).
+- `npm run mod_custom_blankghsvs` (= cleans code).
+- `cd /mnt/z/git-kram/mod_custom_blankghsvs` (back to this repo).
 
 ## Build installable ZIP package
 - `node build.js`
