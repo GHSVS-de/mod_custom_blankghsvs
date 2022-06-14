@@ -35,17 +35,20 @@ let to = "";
 	];
 	await helper.cleanOut(cleanOuts);
 
-	await fse.copy(`./src`, `./package`
+	from = `./src`;
+	to = `./package`;
+	await fse.copy(from, to
 	).then(
-		answer => console.log(chalk.yellowBright(
-			`Copied "./src/*" into "./package".`))
+		answer => console.log(
+			pc.yellow(pc.bold(`Copied "${from}" into "${to}".`))
+		)
 	);
 
 	if (!(await fse.exists("./dist")))
 	{
 		await fse.mkdir("./dist"
 		).then(
-			answer => console.log(chalk.yellowBright(`Created "./dist".`))
+			answer => console.log(pc.yellow(pc.bold(`Created "./dist".`)))
 		);
   }
 
@@ -78,13 +81,14 @@ let to = "";
   .then(
 		hash => {
 			const tag = `<${Digest}>${hash}</${Digest}>`;
-			console.log(chalk.greenBright(`Checksum tag is: ${tag}`));
+			console.log(pc.green(pc.bold(`Checksum tag is: ${tag}`)));
 			return tag;
 		}
 	)
 	.catch(error => {
 		console.log(error);
-		console.log(chalk.redBright(`Error while checksum creation. I won't set one!`));
+		console.log(pc.red(pc.bold(
+			`Error while checksum creation. I won't set one!`)));
 		return '';
 	});
 
@@ -107,10 +111,11 @@ let to = "";
 	}
 
 	cleanOuts = [
-		`./package`,
+		`./package`
 	];
 	await helper.cleanOut(cleanOuts).then(
-		answer => console.log(chalk.cyanBright(chalk.bgRed(
-			`Finished. Good bye!`)))
+		answer => console.log(
+			pc.cyan(pc.bold(pc.bgRed(`Finished. Good bye!`)))
+		)
 	);
 })();
