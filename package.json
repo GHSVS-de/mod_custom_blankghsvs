@@ -72,9 +72,6 @@
     "update": "npm update --save-dev"
 	},
 	"dependencies": {},
-	"devDependencies": {
-		"fs-extra": "10.1.0",
-		"picocolors": "^1.0.0"
-	},
+	"devDependencies": {},
 	"browserslist": []
 }
