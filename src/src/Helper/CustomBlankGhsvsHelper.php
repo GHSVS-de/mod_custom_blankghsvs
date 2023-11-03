@@ -34,6 +34,8 @@ class CustomBlankGhsvsHelper
 				'mod_custom_blankghsvs.content'
 			);
 		}
+
+		$module->title = Text::_($module->title);
 		return $module;
 	}
 
