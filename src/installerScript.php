@@ -26,6 +26,7 @@ class mod_custom_blankGhsvsInstallerScript extends InstallerScript
 		'/modules/mod_custom_blankghsvs/language/de-DE/de-DE.mod_custom_blankghsvs.sys.ini',
 		'/modules/mod_custom_blankghsvs/language/en-GB/en-GB.mod_custom_blankghsvs.ini',
 		'/modules/mod_custom_blankghsvs/language/en-GB/en-GB.mod_custom_blankghsvs.sys.ini',
+		'/modules/mod_custom_blankghsvs/mod_custom_blankghsvs.php',
 	];
 
 	/**
