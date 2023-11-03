@@ -12,7 +12,7 @@
 		"client": "site",
 		"tag": "stable",
 		"targetplatform": [
-			"4.[23456789]",
+			"4\\.(3|4|5|6|7|8|9|10|11|12|13|14|15)",
 			"5.*"
 		],
 		"namespace": "GHSVS\\Module\\CustomBlankGhsvs"
