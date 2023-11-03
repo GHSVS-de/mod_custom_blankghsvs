@@ -21,7 +21,7 @@
 		"title": "Joomla site module mod_custom_blankGhsvs",
 		"requires": [],
 		"uses": [],
-		"language": []
+		"language": ["en-GB", "de-DE"]
 	},
 	"changelog": {
 		"projecturl": "https://github.com/GHSVS-de/mod_custom_blankghsvs",
