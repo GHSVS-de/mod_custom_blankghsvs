@@ -7,7 +7,9 @@ $app,
 $input,
 $params Registry,
 $template,
-$modId String
+$modId String,
+$moduleclass_sfx String,
+$module->title Lang strings translated,
 */
 ?>
 <?php echo $module->content; ?>
