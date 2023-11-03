@@ -15,7 +15,7 @@
 			"4.[23456789]",
 			"5.*"
 		],
-		"namespace": "Joomla\\Module\\CustomBlankGhsvs"
+		"namespace": "GHSVS\\Module\\CustomBlankGhsvs"
 	},
 	"releaseTxt": {
 		"title": "Joomla site module mod_custom_blankGhsvs",
