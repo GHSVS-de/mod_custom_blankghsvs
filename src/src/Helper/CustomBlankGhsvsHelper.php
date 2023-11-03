@@ -6,6 +6,7 @@ namespace GHSVS\Module\CustomBlankGhsvs\Site\Helper;
 
 use Joomla\CMS\Language\Text;
 use Joomla\Registry\Registry;
+use Joomla\CMS\HTML\HTMLHelper;
 
 class CustomBlankGhsvsHelper
 {
