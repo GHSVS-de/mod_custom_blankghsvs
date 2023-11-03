@@ -21,7 +21,12 @@ class mod_custom_blankGhsvsInstallerScript extends InstallerScript
 	 * @var    array
 	 * @since  2.0
 	 */
-	protected $deleteFiles = [];
+	protected $deleteFiles = [
+		'/modules/mod_custom_blankghsvs/language/de-DE/de-DE.mod_custom_blankghsvs.ini',
+		'/modules/mod_custom_blankghsvs/language/de-DE/de-DE.mod_custom_blankghsvs.sys.ini',
+		'/modules/mod_custom_blankghsvs/language/en-GB/en-GB.mod_custom_blankghsvs.ini',
+		'/modules/mod_custom_blankghsvs/language/en-GB/en-GB.mod_custom_blankghsvs.sys.ini',
+	];
 
 	/**
 	 * A list of folders to be deleted with method removeFiles().
