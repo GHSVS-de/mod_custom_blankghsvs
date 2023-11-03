@@ -23,14 +23,15 @@
 	<allowDowngrades>{{allowDowngrades}}</allowDowngrades>
 
 	<files>
-		<filename module="{{name}}">{{name}}.php</filename>
+		<folder>language</folder>
+		<folder module="{{name}}">services</folder>
+		<folder>src</folder>
+		<folder>tmpl</folder>
 		<filename>installerScript.php</filename>
 		<filename>LICENSE.txt</filename>
-		<folder>language</folder>
-		<folder>tmpl</folder>
 	</files>
-
-	<config>
+	{{namespace}}
+	<config{{addfieldprefix}}>
 		<fieldset name="inhalt" label="Content">
 			<field name="content" type="textarea" filter="raw" rows="60" cols="250"
 				class="input-xxlarge">
