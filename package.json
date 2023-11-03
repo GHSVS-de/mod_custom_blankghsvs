@@ -2,18 +2,20 @@
 	"name": "mod_custom_blankghsvs",
 	"nameReal": "mod_custom_blankghsvs",
 	"filename": "mod_custom_blankghsvs",
-	"version": "2022.06.14",
-	"versionCompare": "2021.08.30",
+	"version": "2023.11.03",
+	"versionCompare": "2022.06.14",
+	"versionSub": "",
 	"update": {
+		"infourl": "https://github.com/GHSVS-de/mod_custom_blankghsvs{{thisRelease}}",
 		"type": "module",
 		"folder": "",
 		"client": "site",
 		"tag": "stable",
 		"targetplatform": [
-			"3.*",
-			"4.*"
+			"4.[23456789]",
+			"5.*"
 		],
-		"namespace": ""
+		"namespace": "Joomla\\Module\\CustomBlankGhsvs"
 	},
 	"releaseTxt": {
 		"title": "Joomla site module mod_custom_blankGhsvs",
@@ -28,17 +30,16 @@
 		"docsDE": "",
 		"docsEN": "",
 		"lastTests": [
-			"PHP 8.0",
 			"PHP 8.1",
-			"PHP 7.4",
-			"Joomla 3.10",
-			"Joomla 4.1"
+			"PHP 8.2",
+			"Joomla 5.0",
+			"Joomla 4.4"
 		]
 	},
-	"minimumPhp": "7.3.0",
-	"maximumPhp": "8.99999.99999",
-	"minimumJoomla": "3.9.24",
-	"maximumJoomla": "4.9999.9999",
+	"minimumPhp": "7.4.0",
+	"maximumPhp": "",
+	"minimumJoomla": "4.3.0",
+	"maximumJoomla": "5.9999.9999",
 	"allowDowngrades": "1",
 	"creationDate": "2017-11-16",
 	"licenseLong": "GNU General Public License version 3 or later; see LICENSE.txt.",
@@ -60,7 +61,7 @@
 		"site module"
 	],
 	"private": false,
-	"description": "Joomla site module, similar to mod_custom. Instead of editor, simple textarea field without text filtering.",
+	"description": "Joomla site module, similar to mod_custom. Instead of editor, simple textarea field without text filtering. Be aware: Anybody with edit access to this module can enter everything!",
 	"license": "GPL-3.0",
 	"repository": {
 		"type": "git",
