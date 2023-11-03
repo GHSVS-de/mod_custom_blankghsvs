@@ -21,16 +21,9 @@
 - `cd /mnt/z/git-kram/mod_custom_blankghsvs`
 
 ## node/npm updates/installation
-- `npm run g-npm-update-check` or (faster) `ncu`
-- `npm run g-ncu-override-json` (if needed) or (faster) `ncu -u`
+- `npm run updateCheck` or (faster) `npm outdated`
+- `npm run update` (if needed) or (faster) `npm update --save-dev`
 - `npm install` (if needed)
-
-## PHP Codestyle
-If you think it's worth it.
-- `cd /mnt/z/git-kram/php-cs-fixer-ghsvs`
-- `npm run mod_custom_blankghsvsDry` (= dry test run).
-- `npm run mod_custom_blankghsvs` (= cleans code).
-- `cd /mnt/z/git-kram/mod_custom_blankghsvs` (back to this repo).
 
 ## Build installable ZIP package
 - `node build.js`
@@ -39,5 +32,5 @@ If you think it's worth it.
 
 ### For Joomla update and changelog server
 - Create new release with new tag.
-- - See release description in `dist/release.txt`.
-- Extracts(!) of the update and changelog XML for update and changelog servers are in `./dist` as well. Copy/paste and necessary additions.
+  - See release description in `dist/release_no-changelog.txt`.
+- Extracts(!) of the update XML for update servers are in `./dist` as well. Copy/paste and necessary additions.
